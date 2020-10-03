@@ -19,7 +19,7 @@ const Button = ({
 
     const checkSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
-    const checkColor = COLORS.includes(buttonColor) ? buttonColor : COLORS[0]
+    const checkColor = COLORS.includes(buttonColor) ? buttonColor : ""
 
     return (
     <button type={type} onClick={onClick} className={`btn ${checkStyle} ${checkSize} ${checkColor}`} >{children}</button>

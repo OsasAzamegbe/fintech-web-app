@@ -2,7 +2,7 @@
     --primary: white;
     --blue: #276afb;
     --red: #f009f0;
-    --dark: #242424;
+    --dark: #1a1a1a;
     --green: #25ce4a;
 }
 
@@ -13,6 +13,16 @@
     border: none;
     cursor: pointer;
     white-space: nowrap;
+}
+
+.btn-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
 }
 
 .btn--primary{
@@ -42,7 +52,7 @@
 .btn--mobile{
     text-align: center;
     border-radius: 4px;
-    width: 100%;
+    width: 80%;
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
