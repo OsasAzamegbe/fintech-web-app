@@ -7,7 +7,7 @@ import Button from './Button'
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
-    const [button, setButton] = useState(false)
+    const [button, setButton] = useState(true)
 
     const clickHandler = () => setClick(!click)
 
