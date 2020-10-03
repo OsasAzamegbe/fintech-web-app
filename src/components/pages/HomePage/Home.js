@@ -2,6 +2,7 @@ import React from 'react';
 import HomeSection from '../../HomeSection'
 import {sectionOneObj, sectionTwoObj, sectionThreeObj} from './Data'
 
+
 const Home = () => {
     return (
         <div>
