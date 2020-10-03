@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {MdFingerprint} from 'react-icons/md'
 import Button from './Button'
+import './Navbar.css'
 
 
 const Navbar = () => {
@@ -10,7 +11,17 @@ const Navbar = () => {
     const [button, setButton] = useState(true)
 
     const clickHandler = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false);
 
+    const showButton = () => {
+        if (window.innerWidth <= 960){
+            setButton(false)
+        } else {
+            setButton(true)
+        }
+    }
+
+    window.addEventListener('resize', showButton)
 
     return (
         <nav className="navbar">
@@ -20,7 +31,7 @@ const Navbar = () => {
                     Shinzu
                 </Link>
                 <div className="menu-icon" onClick={clickHandler} >              
-                    {click ? <FaTimes/> : <FaBars/>}
+                    {click ? <FaTimes className="fa-times" /> : <FaBars className="fa-bars"/>}
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">

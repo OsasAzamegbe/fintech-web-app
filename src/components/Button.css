@@ -42,9 +42,9 @@
 .btn--mobile{
     text-align: center;
     border-radius: 4px;
-    width: 80%;
+    width: 100%;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     background-color: transparent;
     color: white;
     padding: 14px 20px;
