@@ -9,7 +9,7 @@ const HomeSection = ({
 }) => {
 
     return(
-        <div className={lightBg ? 'home___home-section' : 'home__home-section darkBg'}>
+        <div className={lightBg ? 'home__home-section' : 'home__home-section darkBg'}>
             <div className="container">
                 <div 
                 className="row home__home-row"

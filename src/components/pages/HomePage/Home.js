@@ -1,10 +1,14 @@
 import React from 'react';
 import HomeSection from '../../HomeSection'
-import {homeObjOne} from './Data'
+import {sectionOneObj, sectionTwoObj, sectionThreeObj} from './Data'
 
 const Home = () => {
     return (
-        <HomeSection {...homeObjOne}/>
+        <div>
+            <HomeSection {...sectionOneObj}/>
+            <HomeSection {...sectionTwoObj}/>
+            <HomeSection {...sectionThreeObj}/>
+        </div>
     )
 }
 
