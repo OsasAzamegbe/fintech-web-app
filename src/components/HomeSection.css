@@ -1,5 +1,5 @@
 .home__home-section {
-    color: #fff;
+    color: var(--primary);
     padding: 160px 0;
 }
   
@@ -32,7 +32,7 @@
 }
   
 .top-line {
-    color: #f00946;
+    color: var(--red);
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -50,11 +50,11 @@
 }
   
 .dark {
-    color: #1c2237;
+    color: var(--dark-blue);
 }
   
 .darkBg {
-    background-color: #1c2237;
+    background-color: var(--dark-blue);
 }
   
 .home__home-subtitle {

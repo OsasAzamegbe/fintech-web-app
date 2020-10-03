@@ -1,9 +1,10 @@
 :root{
     --primary: white;
     --blue: #276afb;
-    --red: #f009f0;
-    --dark: #1a1a1a;
-    --green: #25ce4a;
+    --red: #ff0044;
+    --dark: #242424;
+    --green: #1aa538;
+    --dark-blue: #1c2237;
 }
 
 .btn {
