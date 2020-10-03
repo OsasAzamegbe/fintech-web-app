@@ -4,3 +4,13 @@
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
+
+:root{
+  --primary: white;
+  --blue: #276afb;
+  --red: #ff0044;
+  --dark: #242424;
+  --green: #1aa538;
+  --dark-blue: #1c2237;
+  --off-white: #f7f8fa;
+}
