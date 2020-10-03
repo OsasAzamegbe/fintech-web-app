@@ -2,10 +2,12 @@ import React, {useState} from 'react';
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {MdFingerprint} from 'react-icons/md'
+import Button from './Button'
 
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
+    const [button, setButton] = useState(false)
 
     const clickHandler = () => setClick(!click)
 
@@ -41,7 +43,7 @@ const Navbar = () => {
                             {button ? 
                             <Button buttonStyle="btn--outline">SIGN UP</Button>
                             :
-                            <Button buttonStyle="btn--outline" buttonSize="btn--mobile">SIGN UP</Button>}>
+                            <Button buttonStyle="btn--outline" buttonSize="btn--mobile">SIGN UP</Button>}
                         </Link>
                     </li>
                 </ul>

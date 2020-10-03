@@ -6,8 +6,9 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <Router>
+      <Navbar/>
       <Switch>
-        <Route path='/' exact component={Navbar} />
+        <Route path='/' exact />
       </Switch>
         
     </Router>
