@@ -61,9 +61,24 @@ const Footer = () => {
           
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='//github.com/OsasAzamegbe/'>Github</Link>
-            <Link to='//linkedin.com/in/osamudiamen-azamegbe/'>LinkedIn</Link>
-            <Link to='//medium.com/@osas.azamegbe'>Medium</Link>
+            <Link 
+            to='//github.com/OsasAzamegbe/'
+            target='_blank'
+            aria-label='Github'>
+              Github
+            </Link>
+            <Link 
+            to='//linkedin.com/in/osamudiamen-azamegbe/'
+            target='_blank'
+            aria-label='LinkedIn'>
+              LinkedIn
+            </Link>
+            <Link 
+            to='//medium.com/@osas.azamegbe'
+            target='_blank'
+            aria-label='Medium'>
+              Medium
+            </Link>
           </div>
         </div>
       </div>
