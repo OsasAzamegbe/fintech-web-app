@@ -28,9 +28,9 @@ const sectionOneObj = {
 
 const sectionTwoObj = {
 
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Trust. Convience. Reliability.',
     headLine: '10% Interest on Savings Accounts',
     description: 'Get access to our exclusive diamond card that allows yout to send unlimited transactions without getting charged any fees',
