@@ -1,6 +1,7 @@
 import React from 'react';
-import HomeSection from '../../HomeSection'
-import {sectionOneObj, sectionTwoObj, sectionThreeObj} from './Data'
+import HomeSection from '../../HomeSection';
+import {sectionOneObj, sectionTwoObj, sectionThreeObj} from './Data';
+import Pricing from '../../Pricing';
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <HomeSection {...sectionOneObj}/>
             <HomeSection {...sectionTwoObj}/>
             <HomeSection {...sectionThreeObj}/>
+            <Pricing/>
         </div>
     )
 }
