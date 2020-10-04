@@ -7,7 +7,7 @@ import {
 import Plans from '../../Plans';
 
 
-const Home = () => {
+const Services = () => {
     return (
         <div>
             <HomeSection {...sectionTwoObj}/>
@@ -17,4 +17,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Services;
