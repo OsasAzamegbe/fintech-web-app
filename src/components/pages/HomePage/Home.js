@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeSection from '../../HomeSection';
 import {sectionOneObj, sectionTwoObj, sectionThreeObj} from './Data';
-import Pricing from '../../Pricing';
+import Plans from '../../Plans';
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
             <HomeSection {...sectionOneObj}/>
             <HomeSection {...sectionTwoObj}/>
             <HomeSection {...sectionThreeObj}/>
-            <Pricing/>
+            <Plans/>
         </div>
     )
 }
