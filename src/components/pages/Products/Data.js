@@ -36,7 +36,7 @@ const sectionTwoObj = {
     description: 'Get access to our exclusive diamond card that allows yout to send unlimited transactions without getting charged any fees',
     buttonLabel: 'Learn More',
     imgStart: false,
-    img: 'images/svg-3.svg',
+    img: 'images/svg-6.svg',
     alt: 'Credit Card'
 }
 
