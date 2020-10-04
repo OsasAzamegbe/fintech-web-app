@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Fintech front-end web application. Created with react.
+
+**Live version of this web app is available at https://shinzu.netlify.app/**
+
 
 ## Available Scripts
 
