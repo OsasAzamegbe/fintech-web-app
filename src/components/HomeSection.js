@@ -5,7 +5,7 @@ import './HomeSection.css'
 
 
 const HomeSection = ({
-    lightBg, topLine, lightText, lightTextDesc, headLine, description, buttonLabel, img, alt, imgStart
+    lightBg, topLine, lightText, lightTextDesc, headLine, description, buttonLabel, img, alt, imgStart, hideButton
 }) => {
 
     return(
@@ -19,9 +19,11 @@ const HomeSection = ({
                             <div className="top-line">{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                             <p className={lightTextDesc ? 'home__home-subtitle' : 'home__home-subtitle dark'}>{description}</p>
+                            {!hideButton ? 
                             <Link to="/sign-up">
                                 <Button buttonSize='btn--wide' buttonColor='blue' >{buttonLabel}</Button>
-                            </Link>
+                            </Link> : ""
+                            }
 
                         </div>
                     </div>

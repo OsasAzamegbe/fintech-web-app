@@ -157,3 +157,7 @@
       flex-direction: column;
     }
   }
+
+  .sign-up-section{
+    padding: 200px 64px;
+  }
