@@ -1,20 +1,22 @@
 import React from 'react';
 import './Footer.css';
-import Button from '../../Button';
-import { Link } from 'react-router-dom';
 import {
   FaMedium,
   FaLinkedin,
   FaGithub
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
+import Button from '../../Button';
+import { Link } from 'react-router-dom';
 
-function Footer() {
+
+const Footer = () => {
+
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+          Subscribe to the Shinzu Community Digest to receive the latest financial news and trends
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -43,7 +45,6 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
